@@ -1,5 +1,5 @@
 {
-    "name": "generator-ssjs",
+    "name": "@adesso-se/generator-ssjs",
     "version": "1.0.0",
     "description": "",
     "files": [
@@ -19,10 +19,10 @@
     },
     "type": "module",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/adessoSE/generate-ssjs",
+    "homepage": "https://github.com/adessoSE/generator-ssjs",
     "repository": {
         "type": "git",
-        "url": "https://github.com/adessoSE/generate-ssjs.git"
+        "url": "https://github.com/adessoSE/generator-ssjs.git"
     },
     "author": "pdallmer"
 }

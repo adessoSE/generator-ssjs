@@ -1,0 +1,3 @@
+[submodule "generators/app/templates/ssjs-webpack"]
+	path = generators/app/templates/ssjs-webpack
+	url = https://github.com/adessoSE/ssjs-webpack.git

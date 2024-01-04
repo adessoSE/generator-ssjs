@@ -1,0 +1,28 @@
+{
+    "name": "generator-ssjs",
+    "version": "1.0.0",
+    "description": "",
+    "files": [
+        "generators"
+    ],
+    "keywords": [
+        "yeoman-generator",
+        "javascript",
+        "webpack",
+        "salesforce",
+        "ampscript",
+        "sfmc",
+        "ssjs"
+    ],
+    "dependencies": {
+        "yeoman-generator": "^7.1.1"
+    },
+    "type": "module",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/adessoSE/generate-ssjs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adessoSE/generate-ssjs.git"
+    },
+    "author": "pdallmer"
+}

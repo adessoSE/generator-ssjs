@@ -9,5 +9,5 @@ npm install --global yo
 npm install --global @adesso-se/generator-ssjs
 
 # run it
-yo ssjs
+yo @adesso-se/ssjs
 ```

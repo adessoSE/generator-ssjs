@@ -6,8 +6,8 @@ yo generator to scaffold an [ssjs-webpack](https://github.com/adessoSE/ssjs-webp
 npm install --global yo
 
 # install
-npm install --global @adesso-se/generator-ssjs
+npm install --global generator-ssjs
 
 # run it
-yo @adesso-se/ssjs
+yo ssjs
 ```

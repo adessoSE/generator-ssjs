@@ -9,14 +9,50 @@ export default class extends Generator {
         message: "Your project name",
         default: "ssjs",
       },
+      {
+        type: "input",
+        name: "author",
+        message: "author",
+        default: "",
+      },
+      {
+        type: "input",
+        name: "repository",
+        message: "repository",
+        default: "",
+      },
+      {
+        type: "input",
+        name: "license",
+        message: "license",
+        default: "ISC",
+      }
     ]);
   }
 
   writing() {
-    this.fs.copy(
+    this.fs.copyTpl(
       this.templatePath("ssjs-webpack"),
-      this.destinationPath(this.answers.name)
+      this.destinationPath(this.answers.name),
+      {
+        name: this.answers.name,
+        author: this.answers.author,
+        repository: this.answers.repository,
+        license: this.answers.license,
+        bugs: `${this.answers.repository.replace(/(^.*?)\.git/gi, "$1")}/issues`,
+        homepage: this.answers.repository.replace(/(^.*?)\.git/gi, "$1")
+      },
+      {},
+      {
+        globOptions: {
+          ignore: "**/*.ejs"
+        }
+      }
     );
+    this.fs.copy(
+      `${this.templatePath("ssjs-webpack")}/templates/index.ejs`,
+      `${this.destinationPath(this.answers.name)}/templates/index.ejs`
+    )
   }
 
   constructor(args, opts) {

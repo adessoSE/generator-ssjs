@@ -1,5 +1,5 @@
 # generator-ssjs
-yo generator to scaffold an [ssjs-webpack](https://github.com/adessoSE/ssjs-webpack) project.
+yo generator to scaffold an [SSJS Framework](https://github.com/adessoSE/ssjs-webpack) project.
 ## Installation
 ```
 # install yo

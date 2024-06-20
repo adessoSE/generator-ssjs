@@ -49,10 +49,6 @@ export default class extends Generator {
         }
       }
     );
-    this.fs.copy(
-      `${this.templatePath("ssjs-webpack")}/templates/index.ejs`,
-      `${this.destinationPath(this.answers.name)}/templates/index.ejs`
-    )
   }
 
   constructor(args, opts) {

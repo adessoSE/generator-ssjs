@@ -43,11 +43,7 @@ export default class extends Generator {
         homepage: this.answers.repository.replace(/(^.*?)\.git/gi, "$1")
       },
       {},
-      {
-        globOptions: {
-          ignore: "**/*.ejs"
-        }
-      }
+      {}
     );
   }
 

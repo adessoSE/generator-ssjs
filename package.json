@@ -1,6 +1,6 @@
 {
     "name": "generator-ssjs",
-    "version": "3.0.0-alpha.3",
+    "version": "3.0.0-alpha.4",
     "description": "",
     "files": [
         "generators"
